@@ -135,17 +135,6 @@ public class Livro {
         }
     }
 
-
-
-
-
-
-
-
-
-
-
-
     public String ListarDadosLivro() {
         return "Livro{" +
                 "livro='" + livro + '\'' +
@@ -153,7 +142,7 @@ public class Livro {
                 ", aberto=" + aberto +
                 ", genero='" + genero + '\'' +
                 ", autor='" + autor + '\'' +
-                ", editora='" + editora1 + '\'' +
+                ", editora='" + autor + '\'' +
                 ", paginaAtual=" + paginaAtual +
                 ", anoPublicado='" + anoPublicado + '\'' +
                 '}';
