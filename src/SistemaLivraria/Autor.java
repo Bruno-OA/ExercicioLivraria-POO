@@ -1,13 +1,13 @@
 package SistemaLivraria;
 
 public class Autor {
-    String nome;
-    String sobrenome;
-    String generoEscrita;
-    String sexo;
-    String pais;
-    String cidade;
-    int idade;
+    private String nome;
+    private String sobrenome;
+    private String generoEscrita;
+    private String sexo;
+    private String pais;
+    private String cidade;
+    private int idade;
 
     public String getNome() {
         return nome;

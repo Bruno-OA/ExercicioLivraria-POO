@@ -2,12 +2,12 @@ package SistemaLivraria;
 
 public class Editora {
 
-    String nome;
-    String ano;
-    String cnpj;
-    String endereco;
-    String pais;
-    String estado;
+    private String nome;
+    private String ano;
+    private String cnpj;
+    private String endereco;
+    private String pais;
+    private String estado;
 
     public String getNome() {
         return nome;

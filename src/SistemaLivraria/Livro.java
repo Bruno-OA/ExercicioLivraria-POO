@@ -2,14 +2,14 @@ package SistemaLivraria;
 
 public class Livro {
 
-    String livro;
-    int totalPaginas;
-    boolean aberto;
-    String genero;
-    String autor;
-    String editora;
-    int paginaAtual;
-    int anoPublicado;
+    private String livro;
+    private int totalPaginas;
+    private boolean aberto;
+    private String genero;
+    private Autor autor;
+    private String editora;
+    private int paginaAtual;
+    private int anoPublicado;
 
     public String getLivro() {
         return livro;
